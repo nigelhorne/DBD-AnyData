@@ -1,3 +1,11 @@
+Patch from liacolettig@over-log.it to fix DBD::AnyData.
+
+See RT92103
+
+Nigel Horne
+-----------
+
+
 README FILE FOR PERL MODULE -- DBD::AnyData
 
 WHAT THE HECK IS IT?
