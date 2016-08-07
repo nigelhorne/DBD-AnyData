@@ -8,7 +8,6 @@ eval {
 };
 die "Use must download and install AnyData before you can install DBD::AnyData!" if $@;
 
-=pod
 
 undef $@;
 eval {
@@ -16,6 +15,7 @@ eval {
   require XML::Twig;
 };
 unshift @formats,'XML' unless $@;
+=pod
 undef $@;
 eval {
   require HTML::Parser;
