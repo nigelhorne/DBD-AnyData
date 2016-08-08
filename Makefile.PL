@@ -9,7 +9,7 @@ WriteMakefile
                    'DBI' => '1.611_93',
                    'Params::Util' => '1.00',
                    'SQL::Statement' => '1.27_02',
-                   'Test::More' => '0.9'
+                   'Test::Most' => 0,
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

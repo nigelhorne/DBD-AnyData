@@ -13,7 +13,7 @@ my $builder = Module::Build->new(
                    MailingList => 'mailto:dbi-dev@perl.org',
                    license     => 'http://dev.perl.org/licenses/',
                  },
-    build_requires => { 'Test::More' => 0.90, },
+    build_requires => { 'Test::Most' => 0, },
     requires       => {
                   'AnyData'        => '0.07',
                   'DBI'            => '1.611_93',
