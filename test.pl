@@ -1,4 +1,5 @@
-#!/usr/local/bin/perl -w
+#!perl -w
+
 $|++;
 use strict;
 BEGIN { unshift @INC, '/htdocs/a/my_lib' }
