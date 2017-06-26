@@ -13,4 +13,4 @@ perl:
 before_install:
   cpanm -n Devel::Cover::Report::Coveralls Test::Script HTML::TableExtract XML::Parser XML::Twig
 script:
-  perl Build.PL && Build && cover -test -report coveralls
+  perl Build.PL && ./Build && cover -test -report coveralls
