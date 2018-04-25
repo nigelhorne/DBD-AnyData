@@ -1,3 +1,4 @@
+bin/test.pl
 Build.PL
 Changes
 lib/DBD/AnyData.pm
@@ -10,4 +11,3 @@ t/00-load.t
 t/01-basic.t
 t/manifest.t
 t/pod.t
-META.json
