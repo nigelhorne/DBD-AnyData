@@ -1,4 +1,6 @@
-#!perl -w
+#!/usr/bin/env perl
+
+use warnings;
 
 $|++;
 use strict;
@@ -16,7 +18,7 @@ eval {
   require XML::Twig;
 };
 unshift @formats,'XML' unless $@;
-=pod
+
 undef $@;
 eval {
   require HTML::Parser;
