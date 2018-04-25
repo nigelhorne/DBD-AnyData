@@ -27,8 +27,6 @@ eval {
 };
 push @formats,'HTMLtable' unless $@;
 
-=cut
-
 for my $driver('DBD::AnyData') {
   print "\n$driver\n";
   for my $format(@formats) {
